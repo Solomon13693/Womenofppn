@@ -1,0 +1,223 @@
+/********** About Section ****************/
+
+.about-section {
+	position: relative;
+}
+
+.about-section .about-bg {
+	position: absolute;
+	top: 50%;
+	left: 0;
+	-webkit-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	transform: translateY(-50%);
+	width: 50%;
+	z-index: -1;
+}
+
+.about-section .about-left {
+	text-align: right;
+}
+
+.about-section .about-left .about-slider-wrapper {
+	display: inline-block;
+	position: relative;
+}
+
+.about-section .about-left .slider-wrapper::before {
+	content: '';
+	position: absolute;
+	top: 50%;
+	right: 0px;
+	-webkit-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	transform: translateY(-50%);
+	background-color: #0431b8;
+	width: calc(100% + 30px);
+	height: calc(100% + 20px);
+	border-radius: 50%;
+	z-index: 1;
+}
+
+.about-section .about-left .about-slider-wrapper::after {
+	content: '';
+	position: absolute;
+	top: 50%;
+	right: 0;
+	-webkit-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	transform: translateY(-50%);
+	width: calc(100% + 5px);
+	height: calc(100% + 0px);
+	background-color: #ffffff;
+	border-radius: 50%;
+	z-index: 1;
+}
+
+.about-section .about-left .about-slider-wrapper .about-slider-content {
+	position: absolute;
+	background-color: #0431b8;
+	color: #ffffff;
+	top: -85px;
+	right: 0;
+	width: 105px;
+	height: 105px;
+	border-radius: 50%;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	z-index: 15;
+}
+
+.about-section .about-left .slider-wrapper .slider-content::after {
+	content: '';
+	position: absolute;
+	bottom: -3px;
+	left: 15px;
+	width: 0;
+	height: 0;
+	border-left: 10px solid transparent;
+	border-right: 10px solid transparent;
+	border-top: 15px solid #0431b8;
+	-webkit-transform: skew(-30deg);
+	-ms-transform: skew(-30deg);
+	transform: skew(-30deg);
+}
+
+.about-section .about-left .about-slider-wrapper .about-slider-content .icon-wrapper i {
+	color: #22d3ee;
+	font-size: 30px;
+	line-height: 0;
+	display: inline-block;
+}
+
+.about-section .about-left .about-slider-wrapper .about-slider-content .content-bottom {
+	text-align: center;
+}
+
+.about-section .about-left .about-slider-wrapper .about-slider-content .content-bottom span {
+	font-size: 12px;
+}
+
+.about-section .about-left .about-slider-wrapper .about-slider-content .content-bottom h6 {
+	color: #ffffff;
+}
+
+.about-section .about-left .about-compare-slider {
+	width: 240px;
+	height: 240px;
+	border-radius: 50%;
+	overflow: hidden;
+	display: inline-block;
+	position: relative;
+	z-index: 10;
+}
+
+.about-section .about-right {
+	padding-left: 65px;
+}
+
+.about-section .about-right .devider {
+	display: block;
+	margin: 30px 0;
+}
+
+.about-section .about-right .devider hr {
+	border-top: 1px solid #000;
+	opacity: 0.5;
+	margin: 0;
+}
+
+@media (max-width: 991.98px) {
+	.about-section {
+		padding-top: 100px;
+	}
+	.about-section .about-bg {
+		display: none;
+	}
+	.about-section .about-left {
+		text-align: center;
+	}
+	.about-section .about-right {
+		padding-left: 0;
+		margin-top: 60px;
+		max-width: 600px;
+		text-align: center;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+}
+
+.pt-60 {
+	padding-top: 100px;
+}
+
+
+.about-title-area span.about-subtitle {
+	font-weight: 500;
+	font-size: 18px;
+	position: relative;
+	margin-left: 35px;
+}
+
+.about-title-area span.about-subtitle::before {
+	content: '';
+	width: 25px;
+	height: 25px;
+	background-image: url(../../assets/images/star-object.png);
+	position: absolute;
+	left: -35px;
+	background-size: 25px;
+	background-repeat: no-repeat;
+}
+
+.about-title-area h3 {
+	margin-top: 10px;
+}
+
+.before-after img{
+	width: 100%;
+	height: 240px;
+	object-fit: cover;
+}
+
+.biaboutxol-title-area h3 span {
+	font-weight: 400;
+	display: block;
+}
+
+.about-title-area p {
+	margin-top: 20px;
+}
+
+@media (max-width: 767.98px) {
+	.about-title-area h3 {
+		display: inline-block;
+	}
+	.about-title-area h3 span {
+		display: inline;
+	}
+}
+
+.about-section .about-right .devider {
+	display: block;
+	margin: 30px 0;
+}
+
+.about-section .about-right .devider hr {
+	border-top: 1px solid #000;
+	opacity: 0.5;
+	margin: 0;
+    width: 100% !important;
+}

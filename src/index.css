@@ -1,0 +1,284 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@800;900&display=swap');
+
+body{
+  font-family: 'Rubik', sans-serif !important;
+}
+
+.nav_logo{
+  width: 60px;
+}
+
+.navbar .navbar-nav .nav-item .nav-link{
+  font-size: 14px !important;
+}
+
+.navbar{
+  background: #97135e !important;
+}
+
+.bgMovie{
+  position: absolute;
+  width: 100%;
+  left: 0%;
+  top: 0%;
+  height: 100vh !important;
+  object-fit: cover;
+  z-index: -1;
+}
+
+.banner{
+  height: 100vh;
+  width: 100%;
+}
+
+.banner .side_icons{
+  color: #000;
+  font-size: 20px;
+  position: fixed;
+  right: 25px;
+  top: 130px;
+  z-index: 1050;
+}
+
+.banner .side_icons i{
+  background: #fff;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.banner .side_icons a{
+  color: #000 !important;
+}
+
+.banner .content{
+  margin-top: 200px;
+}
+
+@media (max-width: 668px) {
+  .banner .content{
+    margin-top: 220px;
+  }
+  .banner .side_icons{
+    right: 10px;
+}
+}
+
+.banner_btn{
+  position: absolute;
+  bottom: 10px;
+  right: 30px;
+}
+
+footer a{
+  color: #fff !important;
+}
+
+.btn{
+  padding: 10px 20px !important;
+}
+
+.primary{
+  background: #97135e !important;
+  color: #97135e !important;
+}
+
+.nav-tabs > .nav-item > .nav-link{
+  cursor: pointer;
+}
+
+.nav-tabs > .nav-item > .nav-link:hover{
+  background: #FFF !important;
+  color: #000 !important;
+}
+
+.section-tabs .card{
+  background: #97135e;
+}
+
+/* Video */
+
+.video{
+  height: 100%;
+  overflow-y: hidden !important;
+  width: 100%;
+  height: 520px;
+  border: none;
+  background-color: #fff;
+  margin-bottom: 50px;
+}
+
+.donate_btn{
+  width: 300px;
+}
+
+.text-on-back{
+  background-image: url(https://64.media.tumblr.com/acbd87176df36bc9bcf6e9d8abda0cbe/tumblr_pcsgcsmIeB1qeyvpto1_500.gifv);
+  width: 720px !important;
+  background-size: cover;
+  color: transparent;
+  -moz-background-clip: text;
+  -webkit-background-clip: text;
+  font-family: poppins !important;
+}
+
+@media (max-width: 752px) {
+  .text-on-back{
+    width: 100% !important;
+  }
+}
+
+.banner_description{
+  background: rgba(0, 0, 0, 0.503);
+  padding: 20px;
+  color: #fff !important;
+  font-weight: 300;
+}
+
+
+
+
+/*----------------------------------------*/
+/*  05. BANNER CSS START
+/*----------------------------------------*/
+.banner__item {
+  padding: 50px 40px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+}
+
+.banner__item1{
+  background: url(../src/assets/images/banner-bg-1.jpg);
+}
+.banner__item2{
+  background: url(../src/assets/images/banner-bg-2.jpg);
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .banner__item {
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+}
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  .banner__item {
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+}
+.banner__item span {
+  font-size: 14px;
+  font-weight: 500;
+  color: #ffffff;
+  background: #fc4389;
+  display: inline-block;
+  height: 35px;
+  line-height: 37px;
+  padding: 0 14px;
+  margin-bottom: 15px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  text-transform: capitalize;
+}
+.banner__item span.orange {
+  background: #ff652e;
+}
+.banner__title {
+  font-size: 16px;
+  margin-bottom: 30px;
+  color: #000;
+}
+.banner__title a:hover {
+  color: #2b4eff;
+}
+.banner__thumb {
+  position: absolute;
+  top: 56%;
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  right: 10px;
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .banner__thumb {
+    right: 0;
+  }
+}
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  .banner__thumb {
+    right: 0;
+  }
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .banner__thumb img {
+    width: 240px;
+  }
+}
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  .banner__thumb img {
+    width: 240px;
+  }
+}
+.banner__thumb-2 {
+  top: 63%;
+}
+.banner__content {
+  position: relative;
+  z-index: 1;
+}
+
+.upload{
+  background-color: #000 !important;
+  padding: 30px !important;
+}
+
+
+/* Error page */
+.error__title {
+  font-size: 70px;
+  line-height: 0.9;
+  margin-bottom: 10px;
+}
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  .error__title {
+    font-size: 60px;
+  }
+}
+@media (max-width: 575px) {
+  .error__title {
+    font-size: 37px;
+  }
+}
+.error__content p {
+  font-size: 20px;
+  color: #53545b;
+  margin-bottom: 45px;
+}
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  .error__thumb img {
+    width: 100%;
+  }
+}
+@media (max-width: 575px) {
+  .error__thumb img {
+    width: 100%;
+  }
+}
+
+.flutterwave{
+  border: none !important;
+  background: none !important;
+  width: 320px !important;
+}

@@ -1,0 +1,142 @@
+/************* Service Section **********************/
+
+.bixol-service-section .bixol-services .bixol-service-item {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	gap: 20px;
+	-webkit-transition: all 0.3s ease-in;
+	-o-transition: all 0.3s ease-in;
+	transition: all 0.3s ease-in;
+	margin-bottom: 30px;
+}
+
+.bixol-service-section p{
+    color: #000 !important;
+}
+.bixol-service-section .bixol-services .bixol-service-item .bixol-service-content {
+	background-color: #ffffff;
+	-webkit-box-shadow: 0px 0px 43px 0px rgba(12, 12, 12, 0.16);
+	box-shadow: 0px 0px 43px 0px rgba(12, 12, 12, 0.16);
+	padding: 35px 35px 35px 50px;
+	position: relative;
+	z-index: 1;
+}
+
+.bixol-service-section .bixol-services .bixol-service-item .bixol-service-content::before {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-image: url();
+	background-repeat: no-repeat;
+	background-size: cover;
+	z-index: -1;
+	opacity: 0;
+	-webkit-transition: all 0.3s ease-in;
+	-o-transition: all 0.3s ease-in;
+	transition: all 0.3s ease-in;
+}
+
+
+.bixol-service-section .bixol-services .bixol-service-item:hover {
+	-webkit-transform: translateY(-10px);
+	-ms-transform: translateY(-10px);
+	transform: translateY(-10px);
+}
+
+
+.bixol-service-section .bixol-services .bixol-service-item:hover .bixol-service-content::before {
+	opacity: 1;
+}
+
+.bixol-service-section .bixol-service-middle .img-wrapper {
+	position: relative;
+}
+
+.bixol-service-section .bixol-service-middle .img-wrapper .banner-content {
+	width: 120px;
+	height: 120px;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	border-radius: 10px;
+	position: absolute;
+	top: -30px;
+	left: 50px;
+	text-align: center;
+}
+
+.bixol-service-section .bixol-service-middle .img-wrapper .banner-content h3 {
+	color: #ffffff;
+	margin-bottom: 5px;
+	position: relative;
+	z-index: 10;
+}
+
+.bixol-service-section .bixol-service-middle .img-wrapper .banner-content p {
+	color: #ffffff !important;
+	font-size: 16px;
+	line-height: 1;
+	position: relative;
+	z-index: 10;
+}
+
+.bixol-service-section .bixol-service-middle .img-wrapper .banner-content .banner-svg-1 {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: #97135e;
+	-webkit-clip-path: polygon(0 0, 100% 9%, 100% 95%, 0% 100%);
+	clip-path: polygon(0 0, 100% 9%, 100% 95%, 0% 100%);
+	z-index: 2;
+	border-radius: 15px 25px 25px 15px;
+}
+
+.bixol-service-section .bixol-service-middle .img-wrapper .banner-content .banner-svg-2 {
+	position: absolute;
+	top: 8px;
+	left: -8px;
+	width: 100%;
+	height: 100%;
+	background-color: #97135ec4;
+	-webkit-clip-path: polygon(0 0, 100% 9%, 100% 95%, 0% 100%);
+	clip-path: polygon(0 0, 100% 9%, 100% 95%, 0% 100%);
+	z-index: 1;
+	border-radius: 15px 25px 25px 15px;
+}
+
+@media (max-width: 991.98px) {
+	.bixol-service-section .bixol-services .bixol-service-item {
+		max-width: 600px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.bixol-service-section .bixol-service-middle {
+		text-align: center;
+		margin-top: 30px;
+		margin-bottom: 30px;
+	}
+	.bixol-service-section .bixol-service-middle .img-wrapper {
+		width: auto;
+		max-width: 100%;
+		display: inline-block;
+	}
+}
