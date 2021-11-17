@@ -2,7 +2,7 @@ import React from 'react'
 
 function GalleryCard({representative}) {
     return (
-        <div className="bg-white rounded shadow-sm cursor" ><img src={representative.pic} alt="" className="img-fluid card-img-top" />
+        <div className="bg-white rounded shadow-sm cursor" ><img src={representative.image} alt="" className="img-fluid card-img-top" />
           <div className="p-4">
             <h5> <a className="text-dark">{representative.name}</a></h5>
             <div className="d-flex align-items-center justify-content-between rounded-pill bg-light px-3 py-2 mt-4">

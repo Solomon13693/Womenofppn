@@ -36,7 +36,7 @@ function Banner() {
 
                   <a href="https://api.whatsapp.com/message/BPRL3S73KL4VH1" target="_blank"><i style={{color: "#25D366"}}className="fab fa-whatsapp" rel="noreferrer" ></i></a>
 
-                  <a href="linkedin.com" target="_blank"><i style={{color: "#0274b3"}}className="fab fa-linkedin" rel="noreferrer" ></i></a>
+                  <a href="https://www.linkedin.com/in/lydia-e-king-427753222/" target="_blank"><i style={{color: "#0274b3"}}className="fab fa-linkedin" rel="noreferrer" ></i></a>
                     
             </div>
             

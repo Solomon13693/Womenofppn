@@ -9,6 +9,7 @@ function RepList() {
             country: "USA",
             name: "Koray Kamara",
             email: "Lovekorayson@yahoo.com",
+            image: "/images/respresentatives/1.jpeg",
             img: "https://media.istockphoto.com/photos/flag-of-the-united-states-picture-id524055319?b=1&k=20&m=524055319&s=170667a&w=0&h=BA4elkjlqvCXyXaB5Tg7jcqpqcj9vukKGQ-DaYgrpm0="
         },
         {
