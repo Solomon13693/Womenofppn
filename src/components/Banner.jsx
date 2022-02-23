@@ -32,7 +32,7 @@ function Banner() {
 
                   <a href="https://t.me/womenoffireppn" target="_blank"><i style={{color: "#1DA1F2"}} className="fab fa-telegram" rel="noreferrer" ></i></a>
 
-                  <a href="https://www.youtube.com/channel/UCPDpo8i2sEF7lVr7Y8Y49Tw" target="_blank" rel="noreferrer" ><i style={{color: "#FF0000"}} className="fab fa-youtube"></i></a>
+                  <a href="https://www.youtube.com/channel/UC-uZ8gkj6gdBy0vdXdsmrsQ" target="_blank" rel="noreferrer" ><i style={{color: "#FF0000"}} className="fab fa-youtube"></i></a>
 
                   <a href="https://api.whatsapp.com/message/BPRL3S73KL4VH1" target="_blank"><i style={{color: "#25D366"}}className="fab fa-whatsapp" rel="noreferrer" ></i></a>
 

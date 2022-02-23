@@ -159,7 +159,7 @@ export default function TransparentHeader() {
 
             <NavItem>
               <NavLink tag={Link} to="/gallery">
-                Photo Gallary
+                Photo Gallery
               </NavLink>
             </NavItem>
 

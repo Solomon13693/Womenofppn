@@ -81,7 +81,7 @@ function Home() {
                            <span class="orange"><i className="fas fa-hand-holding-usd"></i> Donate</span>
                               <p className="banner__title">You can support this mission to <br /> reach out to more women <br /> across the glob</p>
                            
-                              <Button tag={Link} to="/donation" className="btn-neutral">Give online <i className="fas fa-money-bill-wave"></i> </Button>
+                              <Button tag={Link} to="/support" className="btn-neutral">Give online <i className="fas fa-money-bill-wave"></i> </Button>
 
                         </div>
                         <div class="banner__thumb banner__thumb-2 d-none d-sm-block d-md-none d-lg-block">

@@ -16,7 +16,7 @@ function Live() {
                     <iframe className="video shadow-xl" width="100%" height="100%" src="https://www.youtube.com/embed/live_stream?channel=UC-uZ8gkj6gdBy0vdXdsmrsQ" frameborder="0" allow="autoplay; encrypted-media" allowTransparency="true" allowfullscreen="true"></iframe>
 
                     <div className="m-auto-text-center-mb-5">
-                        <a href="https://www.youtube.com/watch?v=kbvKxrVIur8" target="_blank" rel="noopener noreferrer">
+                        <a href="https://www.youtube.com/channel/UC-uZ8gkj6gdBy0vdXdsmrsQ" target="_blank" rel="noopener noreferrer">
                         <button className="btn btn-primary py-3 mb-5">View previous live sections</button>
                         </a>
                     </div>
